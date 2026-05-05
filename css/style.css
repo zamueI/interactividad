@@ -12,7 +12,7 @@ body {
 #canvas-container {
     position: relative;
     /* Color image sits behind everything */
-    background-image: url('../img/colorbg.svg');
+    background-image: url('https://zamuei.github.io/interactividad/img/colorbg.svg');
     background-size: 100% 100%; /* stretch to match canvas exactly */
     background-repeat: no-repeat;
     background-position: center;

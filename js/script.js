@@ -5,7 +5,7 @@ const SVG_W = 800; // Set these to your actual SVG dimensions
 const SVG_H = 600;
 
 function preload() {
-    bwImg = loadImage('../img/bwbg.svg');
+    bwImg = loadImage('https://zamuei.github.io/interactividad/img/bwbg.svg');
 }
 
 function setup() {
