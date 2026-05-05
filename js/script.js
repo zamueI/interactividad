@@ -35,7 +35,7 @@ function draw() {
     clear();
 
     // Only erase when mouse is pressed AND inside the canvas
-    if (mouseIsPressed && mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+    if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
         maskLayer.push();
         maskLayer.erase();
         maskLayer.noStroke();
